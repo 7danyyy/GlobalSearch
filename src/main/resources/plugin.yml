@@ -1,0 +1,10 @@
+name: Globalsearch
+version: '${project.version}'
+main: it.s7danyy.globalsearch.Globalsearch
+api-version: '1.17'
+softdepend: [BackpacksPlugin]
+
+commands:
+  globalsearch:
+    aliases: gsearch
+    permission: admin.globalsearch.use

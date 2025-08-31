@@ -1,0 +1,17 @@
+# Permission: admin.globalsearch.use
+#Which world to scan
+search:
+  world: world
+
+# Language of the help screen IT (Italian) / EN
+usage-lang: EN
+
+# messages
+messages:
+  missing-t-param: "&cYou must specify &et:<type>&c for item searches!"
+  no-hand-item:     "&cYou have nothing in hand!"
+  world-not-found:  "&cWorld '&e{world}&c' not found!"
+  container-found-message: "Found match in container at {x}, {y}, {z}"
+  online-found-message:    "Found match in inventory of {player}"
+  teleport-button:         " | TELEPORT "
+  teleport-hover:          "&7Click to teleport to &e{target}"
